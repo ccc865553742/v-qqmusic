@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'qqmusic';
+  src:  url('../fonts/qqmusic.eot?k87xn9');
+  src:  url('../fonts/qqmusic.eot?k87xn9#iefix') format('embedded-opentype'),
+    url('../fonts/qqmusic.ttf?k87xn9') format('truetype'),
+    url('../fonts/qqmusic.woff?k87xn9') format('woff'),
+    url('../fonts/qqmusic.svg?k87xn9#qqmusic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'qqmusic' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-loading:before {
+  content: "\e91b";
+}
+.icon-ok:before {
+  content: "\e900";
+}
+.icon-no:before {
+  content: "\e901";
+}
+.icon-add:before {
+  content: "\e90a";
+}
+.icon-play-mini:before {
+  content: "\e90b";
+}
+.icon-playlist:before {
+  content: "\e90c";
+}
+.icon-music2:before {
+  content: "\e90d";
+}
+.icon-like:before {
+  content: "\e90e";
+}
+.icon-not-like:before {
+  content: "\e90f";
+}
+.icon-pause:before {
+  content: "\e911";
+}
+.icon-play:before {
+  content: "\e912";
+}
+.icon-prev:before {
+  content: "\e913";
+}
+.icon-loop:before {
+  content: "\e914";
+}
+.icon-sequence:before {
+  content: "\e915";
+}
+.icon-random:before {
+  content: "\e916";
+}
+.icon-back:before {
+  content: "\e917";
+}
+.icon-mine:before {
+  content: "\e918";
+}
+.icon-next:before {
+  content: "\e919";
+}
+.icon-pause-mini:before {
+  content: "\e91a";
+}
+.icon-single_loop:before {
+  content: "\e907";
+}
+.icon-list_loop:before {
+  content: "\e908";
+}
+.icon-music:before {
+  content: "\e909";
+  color: #666;
+}
+.icon-musiclist:before {
+  content: "\e906";
+}
+.icon-time:before {
+  content: "\e905";
+}
+.icon-close:before {
+  content: "\e903";
+}
+.icon-close-circled:before {
+  content: "\e904";
+}
+.icon-right:before {
+  content: "\e902";
+}
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-spinner9:before {
+  content: "\e982";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
