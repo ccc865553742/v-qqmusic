@@ -24,9 +24,9 @@
 
 # 效果图
 
-
-
-<<<<<<< HEAD
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
->>>>>>> 7f30cf54da7208f12cdeff20e62a1e27f209fa0d
+![image](https://github.com/ccc865553742/v-qqmusic/tree/master/images/index.jpg)
+![image](https://github.com/ccc865553742/v-qqmusic/tree/master/images/singer.jpg)
+![image](https://github.com/ccc865553742/v-qqmusic/tree/master/images/toplist.jpg)
+![image](https://github.com/ccc865553742/v-qqmusic/tree/master/images/search.jpg)
+![image](https://github.com/ccc865553742/v-qqmusic/tree/master/images/keyword.jpg)
+![image](https://github.com/ccc865553742/v-qqmusic/tree/master/images/start.jpg)
