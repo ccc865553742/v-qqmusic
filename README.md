@@ -24,9 +24,9 @@
 
 # 效果图
 
-![index](https://github.com/ccc865553742/v-qqmusic/tree/master/images/index.jpg)
-![singer](https://github.com/ccc865553742/v-qqmusic/tree/master/images/singer.jpg)
-![toplist](https://github.com/ccc865553742/v-qqmusic/tree/master/images/toplist.jpg)
-![serch](https://github.com/ccc865553742/v-qqmusic/tree/master/images/search.jpg)
-![keyword](https://github.com/ccc865553742/v-qqmusic/tree/master/images/keyword.jpg)
-![play](https://github.com/ccc865553742/v-qqmusic/tree/master/images/start.jpg)
+![index](https://raw.githubusercontent.com/ccc865553742/v-qqmusic/master/images/index.jpg)
+![singer](https://raw.githubusercontent.com/ccc865553742/v-qqmusic/master/images/singer.jpg)
+![toplist](https://raw.githubusercontent.com/ccc865553742/v-qqmusic/master/images/toplist.jpg)
+![serch](https://raw.githubusercontent.com/ccc865553742/v-qqmusic/master/images/search.jpg)
+![keyword](https://raw.githubusercontent.com/ccc865553742/v-qqmusic/master/images/keyword.jpg)
+![play](https://raw.githubusercontent.com/ccc865553742/v-qqmusic/master/images/start.jpg)
