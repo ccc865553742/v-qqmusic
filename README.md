@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # qqmusic
 
 > A Vue.js project
@@ -19,3 +20,6 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+#vue-qqmusic
+>>>>>>> 300be66ab2f193392f00fa0fcc8a53a184fd4fbe
