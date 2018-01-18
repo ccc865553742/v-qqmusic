@@ -74,8 +74,10 @@ export default {
       this.scrollTop = this.$refs.resultList.scrollTop;
     },
     select(item) {
-      const song = createSong(item);
-      this.insertSong(song);
+      createSong(item)
+      .then((song) => {
+        this.insertSong(song);
+      });
     },
     avatar(mid) {
       return `https://y.gtimg.cn/music/photo_new/T002R68x68M000${mid}.jpg?max_age=2592000`;

@@ -12,6 +12,7 @@ import router from './router';
 import '../static/css/icon.css';
 import '../static/css/reset.css';
 
+
 // 图片懒加载
 Vue.use(VueLazyload, {
   preLoad: 1.3,

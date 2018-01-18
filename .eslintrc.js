@@ -42,5 +42,7 @@ module.exports = {
     "no-mixed-operators": 0,
     "no-restricted-syntax": 0,
     "guard-for-in": 0,
+    "quotes": 0,
+    "comma-dangle": 0
   }
 }

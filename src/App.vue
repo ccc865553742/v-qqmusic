@@ -12,29 +12,27 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
-import header from './components/header/header';
-import tab from './components/tab/tab';
-import player from './components/player/player';
+import { mapGetters } from "vuex";
+import header from "./components/header/header";
+import tab from "./components/tab/tab";
+import player from "./components/player/player";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    'v-header': header,
+    "v-header": header,
     tab,
-    player,
+    player
   },
   computed: {
-    ...mapGetters([
-      'currentIndex',
-    ]),
-  },
+    ...mapGetters(["currentIndex"])
+  }
 };
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -43,19 +41,21 @@ export default {
   color: #2c3e50;
   /*margin-top: 60px;*/
 }
-*::-webkit-scrollbar {display:none}
+*::-webkit-scrollbar {
+  display: none;
+}
 
-.header{
+.header {
   top: 0;
   left: 0;
   position: fixed;
   z-index: 10;
 }
-.tab{
+.tab {
   position: fixed;
   /*color: #2c3e50;*/
   background: #fff;
-  top: .88rem;
+  top: 0.88rem;
   z-index: 10;
 }
 </style>

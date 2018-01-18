@@ -295,7 +295,7 @@ export default {
       });
     },
     handleLyric({ lineNum, txt }) {
-      const top = this.$refs.lyricLine[lineNum].offsetTop - 5 * 32;
+      const top = (this.$refs.lyricLine[lineNum].offsetTop || 0) - 5 * 32;
       this.currentLineNum = lineNum;
       if (lineNum > 5) {
         this.$refs.lyricwrap.style.transform = `translate3d(0, -${top}px, 0)`;

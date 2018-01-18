@@ -34,7 +34,10 @@ export default {
       list.forEach((item) => {
         const { musicData } = item;
         if (musicData.songid && musicData.albummid) {
-          ret.push(createSong(musicData));
+          createSong(musicData)
+          .then((data) => {
+            ret.push(data);
+          });
         }
       });
       return ret;
