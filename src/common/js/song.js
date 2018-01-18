@@ -51,6 +51,7 @@ export async function createSong(musicData) {
   // console.log(musicData);
   const data = (await getMusicBasis(musicData.songmid));
   const music = data.data.data.items[0];
+  console.log(music);
   const guid = data.guid;
   // console.log(music);
   // console.log(music, 'music');
@@ -65,8 +66,6 @@ export async function createSong(musicData) {
     image: `https://y.gtimg.cn/music/photo_new/T002R300x300M000${
       musicData.albummid
     }.jpg?max_age=2592000`,
-    url: `http://dl.stream.qqmusic.qq.com/${music.filename}?vkey=${
-      music.vkey
-    }&guid=${guid}&uin=0&fromtag=999`
+    url: `http://dl.stream.qqmusic.qq.com/${music.filename}?vkey=${music.vkey}&guid=${guid}&uin=0&fromtag=999`
   });
 }

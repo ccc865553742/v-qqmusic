@@ -9,6 +9,7 @@
 在线预览地址：https://whispering-savannah-22940.herokuapp.com/#/  --> 这是一个免费的heroku 服务器
 
 # 使用到的技术栈
+* rem.js 做移动端的适配
 * axios (网络请求)
 * vue-router (页面的路由)
 * vuex (页面的状态管理)
@@ -25,8 +26,4 @@
 # 效果图
 
 
-
-<<<<<<< HEAD
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
->>>>>>> 7f30cf54da7208f12cdeff20e62a1e27f209fa0d
+  
