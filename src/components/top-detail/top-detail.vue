@@ -31,7 +31,11 @@ export default {
       list.forEach((item) => {
         const { data } = item;
         if (data.songid && data.albummid) {
-          ret.push(createSong(data));
+          // ret.push(createSong(data));
+          createSong(data)
+          .then((musicData) => {
+            ret.push(musicData);
+          });
         }
       });
       return ret;
