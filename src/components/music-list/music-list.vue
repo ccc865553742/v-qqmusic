@@ -21,10 +21,9 @@
 
     <div class="song_list" id="song_list" ref="list" @scroll.stop.prevent="scroll">
       <div class="bg_layer" ref="layer"></div>
-
       <ul v-if="songs.length">
         <li class="song_item" v-for="(item, index) in songs" @click="selectItem(index)">
-          <span class="index">{{ index + 1 }}</span>
+          <span class="index" :class="{ 'hot-song': index <= 2 }" >{{ index + 1 }}</span>
           <div class="song_detail">
             <span class="song_name">{{ item.name }}</span>
             <span class="song_singer">{{ `${item.singer} - ${item.album}` }}</span>
@@ -215,40 +214,44 @@ export default {
   position: fixed;
   z-index: 40;
 }
+.song_item .index.hot-song {
+  color: #FF400B;
+}
 .song_item{
   display: flex;
   height: 1rem;
   width: 100%;
   align-items: center;
   background: #fff;
-  border-bottom: .04rem solid #efefef;
+  /* border-bottom: .04rem solid #efefef; */
 }
 .song_item .index{
   flex: 0 0 1rem;
   line-height: 1rem;
-  font-size: .36rem;
+  font-size: .28rem;
   color:rgba(0,0,0,0.4);
 }
 .song_item .song_detail {
-  /*flex: 0 0 2.7rem;*/
+  flex: 1;
+  display: flex;
   width: 6.25rem;
   height: 100%;
-  padding: .15rem;
+  padding: .20rem 0;
   box-sizing: border-box;
-  display: flex;
   justify-content: space-between;
   flex-direction: column;
   text-align: left;
-  border-bottom: .02rem solid #fff;
+  /* border-bottom: .02rem solid #fff; */
 }
 .song_detail .song_name{
-  font-size: .28rem;
+  font-size: .26rem;
+  width: 100%;
   text-overflow: ellipsis;
-  overflow:hidden;
+  /* overflow-x:hidden; */
   white-space:nowrap;
 }
 .song_detail .song_singer{
-  font-size: .28rem;
+  font-size: .24rem;
   color: rgba(0,0,0,.4);
   text-overflow: ellipsis;
   overflow:hidden;

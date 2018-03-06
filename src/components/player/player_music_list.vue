@@ -1,6 +1,5 @@
 <template lang="html">
   <transition name="list_fade">
-
   <div class="player_list_container" v-show="showList">
     <transition name="fade">
       <div class="mask" v-show="showList" @click="closeList"></div>
@@ -42,6 +41,7 @@
 <script>
 import { playerMixin } from '../../common/js/mixin';
 import confirm from '../../base/confirm/confirm';
+import ModalHelper from '../../common/js/modalHelper';
 
 export default {
   props: {
@@ -130,6 +130,9 @@ export default {
           // this.$refs.list.scrollTop = `${top}`;
           this.scrollTo(this.$refs.list, top);
         }, 500);
+        ModalHelper.afterOpen();
+      } else {
+        ModalHelper.beforeClose();
       }
     },
   },

@@ -37,4 +37,8 @@
 
 解决方案 https://www.jianshu.com/p/b26c0c9c6149
 
+# 2018-3-1
+解决移动端滚动穿透的问题
+解决方案参考 [解决方案 position: fixed](https://segmentfault.com/a/1190000005617307#articleHeader3)
+
 

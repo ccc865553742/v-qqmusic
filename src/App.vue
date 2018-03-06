@@ -53,9 +53,12 @@ export default {
 }
 .tab {
   position: fixed;
-  /*color: #2c3e50;*/
   background: #fff;
   top: 0.88rem;
   z-index: 10;
+}
+body.modal-open {
+    position: fixed;
+    width: 100%;
 }
 </style>
