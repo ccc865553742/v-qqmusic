@@ -32,7 +32,7 @@
 * ![play](https://raw.githubusercontent.com/ccc865553742/v-qqmusic/master/images/start.jpg)
 
 
-#修复歌曲链接失效
+# 2017 12-5 修复歌曲链接失效
 由于qq音乐接口改动
 
 解决方案 https://www.jianshu.com/p/b26c0c9c6149
