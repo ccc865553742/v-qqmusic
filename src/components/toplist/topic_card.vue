@@ -55,8 +55,8 @@ export default {
 .toplist_card_container {
   position: relative;
   display: flex;
-  height: 2rem;
-  width: calc(100vw - .3rem * 2);
+  height: 2.1rem;
+  width: calc(7.5rem - .3rem * 2);
   margin:.3rem auto;
   padding: .05rem;
   background: #fff;
@@ -65,9 +65,9 @@ export default {
 }
 .card_left {
   position: relative;
-  background: #000;
+  flex: 0 0 2rem;
   height: 2rem;
-  width: 2rem;
+  background: #000;
 }
 .card_left img{
   height: 100%;
@@ -86,12 +86,15 @@ export default {
   flex: 1;
   text-align: letf;
   margin:.1rem .2rem;
+  margin-right: .5rem;
+  overflow: hidden;
 }
 .card_right .topic_titl {
   text-align: left;
   font-size: .36rem;
 }
 .card_right .topic_content{
+  width: 100%;
   color: #000;
 }
 .item_text{
@@ -100,10 +103,11 @@ export default {
 .card_right .topic_content p {
   text-align: left;
   font-size: .26rem;
-  width: 4rem;
+  line-height: .26rem;
+  width: 95%;
   margin-top: .26rem;
   white-space: nowrap;
-  overflow: hidden;
+  /* overflow: auto; */
   text-overflow: ellipsis;
 }
 .icon-right{

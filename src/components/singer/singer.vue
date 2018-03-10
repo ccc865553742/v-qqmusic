@@ -225,6 +225,7 @@ export default {
   padding:.4rem 0;
   border-radius: .5rem;
   background-color: #efefef;
+  z-index: 5555;
 }
 
 .list_shortcut .item {

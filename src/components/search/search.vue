@@ -182,12 +182,15 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.search_container {
+  width: 7.5rem;
+}
 .search_view{
   display: flex;
   position: fixed;
+  width: 7.5rem;
   /*margin-top: */
   top: 1.68rem;
-  width: 100%;
   padding: .2rem;
   box-sizing: border-box;
   z-index: 20;
@@ -229,6 +232,7 @@ export default {
 }
 
 .search_content_wrap{
+  width:100%;
   position: fixed;
   margin-top: 1.4rem;
   height: 3rem;
@@ -242,6 +246,7 @@ export default {
 }
 
 .search_tag_wrap{
+  width: 7.5rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -304,7 +309,7 @@ export default {
 }
 .search_result_wrap{
   position: fixed;
-  height: calc(100vh - 2.88rem);
+  height: calc(7.5rem - 2.88rem);
   overflow-y: scroll;
   font-size: .24rem;
   margin-top: 1.4rem;
@@ -316,7 +321,7 @@ export default {
   align-items: center;
   font-size: .24rem;
   margin:.1rem;
-  width: calc(100vw - .1rem * 2);
+  width: calc(7.5rem - .1rem * 2);
   color: #000;
   height: .88rem;
   border-bottom: .02rem solid #ededed;

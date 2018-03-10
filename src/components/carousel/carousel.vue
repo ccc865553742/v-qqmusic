@@ -1,6 +1,6 @@
 <template lang="html">
   <v-touch class="carousel_container" @swipeleft="next" @swiperight="prev">
-    <div class="img_container" :class="{img_wrap_tran: isTrans}" ref="img_wrap" :style="{transform:  `translate3d(${- index * clientWidth}px, 0, 0)`, width:cslider.length * 100 + '%'}">
+    <div class="img_container" :class="{img_wrap_tran: isTrans}" ref="img_wrap" :style="{transform:  `translate3d(${- index * clientWidth}rem, 0, 0)`, width:cslider.length * 100 + '%'}">
       <a class="img_item" v-for="(item, index) in cslider" :href="item.linkUrl" :key="index">
         <img :src="item.picUrl" alt="">
       </a >
@@ -19,7 +19,7 @@ export default {
       btn_index: 1,
       isTrans: false,
       timer: null,
-      clientWidth: 0,
+      clientWidth: 7.5,
     };
   },
   props: {
@@ -98,7 +98,7 @@ export default {
     },
   },
   mounted() {
-    this.clientWidth = document.body.clientWidth;
+    // this.clientWidth = document.body.clientWidth;
     this.play();
   },
 };
@@ -108,7 +108,7 @@ export default {
 .carousel_container{
   position: relative;
   height: 3rem;
-  width: 100vw;
+  width: 7.5rem;
   overflow: hidden;
 }
 .img_container {

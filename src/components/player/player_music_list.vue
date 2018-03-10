@@ -190,6 +190,7 @@ export default {
   bottom: 0;
   left: 0;
   z-index: 201;
+  background: #fff;
 }
 .list_header{
   flex: 0 0 1rem;

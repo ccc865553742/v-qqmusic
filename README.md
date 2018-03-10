@@ -51,4 +51,7 @@
 解决移动端滚动穿透的问题
 解决方案参考 [解决方案 position: fixed](https://segmentfault.com/a/1190000005617307#articleHeader3)
 
+# 2018-3-10
+添加css 样式 视图兼容平板电脑
+
 

@@ -3,9 +3,11 @@
     <v-header class="header"></v-header>
     <tab class="tab"></tab>
     <div style="margin-top:1.66rem"></div>
-    <keep-alive>
-      <router-view></router-view>
-    </keep-alive>
+    <div class="main">
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
+    </div>
     <div style="height:1.2rem" v-show="currentIndex !== -1"></div>
     <player></player>
   </div>
@@ -36,7 +38,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  width: 7.5rem;
+  width: 100vw;
   height: 100vh;
   color: #2c3e50;
   /*margin-top: 60px;*/
@@ -60,5 +62,9 @@ export default {
 body.modal-open {
     position: fixed;
     width: 100%;
+}
+.main {
+  width: 7.5rem;
+  margin: 0 auto;
 }
 </style>
