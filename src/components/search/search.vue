@@ -309,7 +309,7 @@ export default {
 }
 .search_result_wrap{
   position: fixed;
-  height: calc(7.5rem - 2.88rem);
+  height: calc(100vh - 2.88rem);
   overflow-y: scroll;
   font-size: .24rem;
   margin-top: 1.4rem;
