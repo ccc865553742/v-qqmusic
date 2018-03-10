@@ -246,7 +246,7 @@ export default {
 }
 
 .search_tag_wrap{
-  width: 7.5rem;
+  max-width: calc(7.5rem - .2rem);
   display: flex;
   flex-wrap: wrap;
 }
